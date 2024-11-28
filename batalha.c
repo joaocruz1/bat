@@ -73,13 +73,6 @@ int imprimir_camp(int camp[][TAMANHOCAMP], char player[]){
     }
 }
 
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-#define TAMANHOCAMP 5
-#define TAMANHONICK 50
-
 void jogar(int camp1[][TAMANHOCAMP], int camp2[][TAMANHOCAMP], char player1[], char player2[]) {
     int acertou_barco_player1 = 0;
     int acertou_barco_player2 = 0;
